@@ -10,7 +10,9 @@
 .first-header-logo {
   width: 50%;
   float: left;
-  font-size: 28px;
+  font-size: 33px;
+  color: rgb(8,205,255);
+  font-weight: bold;
 }
 .first-header-contact {
   
@@ -24,6 +26,7 @@
 }
 .Phone-number .number {
   font-size: 18px;
+  font-weight: bold;
 }
 /*.Phone-number .number-text{
   padding-left: 20px;
@@ -34,15 +37,46 @@
 }
 .email-address .email{
    font-size: 18px;
+   font-weight: bold;
 }
 /*.email-address .email-text{
   padding-left: 20px;
    
 }*/
-
+  
+   /* second-header == */
 
 .second-header {
-  background: black ;
+  background:  rgb(8,205,255);
   color: white ;
+  width: 100%;
 }
-  /* end header section */
+.second-header ul {
+  display: inline-block;
+  color: white ;
+  list-style: none;
+  
+}
+.second-header ul li {
+
+  float: left;
+  padding: 5px 10px;
+  margin: 10px 20px;
+  
+} /* end header section */
+.second-header ul li:hover {
+  background: white;
+  color: rgb(8,205,255);
+  
+} /* end header section */
+  
+  
+  /* start slider section */
+  
+   .slider img {
+    height: 100%;
+    width: 100%;
+   
+  }
+  
+  /* start slider section */
