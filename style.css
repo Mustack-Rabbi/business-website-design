@@ -84,8 +84,9 @@
   
   .our-service{
     width: 100%;
-    height: 150px;
+    height: 120px;
     background: yellow;
+    padding: 40px 0px;
   }
   .our-service .seo{
     width: 33%;
