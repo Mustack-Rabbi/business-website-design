@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background: ;
-}
 /* start header section */
 .first-header {
   height: 50px;
@@ -91,6 +88,7 @@ body {
   width: 100%;
   text-align: center;
   padding: 40px 0px;
+  background: width;
 }
 .sarvice-header p {
   font-size: 30px;
@@ -99,51 +97,67 @@ body {
 
 .our-service {
   width: 100%;
-  height: 120px;
+  height: 150px;
   background: rgb(190,239,251);
-  padding: 40px 0px;
- 
- 
 }
-.our-service .seo {
-  width: 33%;
+.our-service2 {
+  width: 900px;
+  padding-top: 20px;
+  margin: auto;
+}
+/* padding-left: auto;
+  padding-right: ;
+  margin-bottom: 10px;*/
+
+
+.our-service2 .seo {
+  width: 32%;
+  padding-right: 15px;
   float: left;
-  padding-left: 9px;
 }
-.our-service .marketing {
-  width: 33%;
+.our-service2 .marketing {
+  width: 32%;
+  padding-right: 15px;
   float: left;
 }
-.our-service .support {
-  width: 33%;
+.our-service2 .support {
+  width: 32%;
   float: left;
 }
 
 
 .our-service .icon {
-  width: 28%;
+  padding-right: 15px;
   float: left;
 }
 
 .our-service .text {
-  width: 65%;
+  width: 70%;
   float: left;
-  padding: 0px 0px 0px 0px;
-  background: ;
+  padding: 0px;
 }
 
 
 .our-service img {
- height: 70px;
- width: 70px;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
   background: white;
-  border: px solid black;
-  border-color: black;
 }
 .our-service p {
   padding: 5px 0px 15px 0px;
+  font-size: 16px;
+}
+.our-service a {
+  text-decoration: none;
+  color: #04a1fb;
+  font-size: 18px;
 }
 
 
 /* end our service  section */
+
+.etc {
+  width: 100%;
+  height: 40px;
+}
